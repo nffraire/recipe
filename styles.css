@@ -1,0 +1,126 @@
+
+html {
+    box-sizing: border-box;
+    background-color: rgba(122, 191, 191, .5);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: auto;
+  max-width: 414px;
+  position: relative;
+  background-color: #f2f2f2;
+}
+
+img {
+max-width: 100%;
+}
+
+nav {
+    width: 414px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+nav a {
+    font-family: 20px;
+}
+
+nav a span {
+    font-family: 20px;
+}
+
+header,footer {
+    width: 100%;
+    background-color: white;
+}
+
+header {
+    border-bottom: 2px solid #FFFFFF;
+    justify-content: center;
+}
+
+footer {
+    position: relative; 
+
+}
+
+footer img {
+    width: 200px;
+    position: relative; 
+    left: 80px;
+}
+
+menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    margin-bottom: -60px;
+}
+
+menu li {
+    color: #EB5428;
+    font-size: 20px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.icon-tabler-download {
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+}
+
+.icon-tabler-share {
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+}
+
+.icon-tabler-printer {
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+}
+
+.icon-tabler-file-symlink {
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+}
+
+.hidden-text {
+    visibility: hidden;
+}
+
+
+h1, h2, h3, nav a, nav span, menu li, #social li, footer {
+    font-family: 'Bebas Neue', cursive;
+}
+p, dd, dt, li, nav, input {
+    font-family: 'Montserrat', sans-serif; ;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+button {
+    position: relative;
+    left: 205px;
+    border: 2px solid #EB5428;
+  }
